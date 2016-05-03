@@ -3447,7 +3447,7 @@ sap.ui.define([
 		}
 
 		if (!jQuery.sap.startsWith(sFunctionName, "/")) {
-			jQuery.sap.log.fatal(this + " callFunction: path '" + sFunctionName + "' must be absolute!");
+			jQuery.sap.log.fatal(this + " callFunction: path '" + sFunctionName + "' must be absolute! (i.e. start your function name with a /)");
 			return;
 		}
 
